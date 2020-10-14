@@ -1,0 +1,16 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      772/mysqld      
+tcp        0      0 127.0.0.1:11211         0.0.0.0:*               LISTEN      3517/memcached  
+tcp        0      0 0.0.0.0:2222            0.0.0.0:*               LISTEN      626/sshd        
+tcp        0      0 0.0.0.0:9999            0.0.0.0:*               LISTEN      6739/monit      
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      23418/nginx     
+tcp        0      0 192.168.122.1:53        0.0.0.0:*               LISTEN      32117/dnsmasq   
+tcp        0      0 0.0.0.0:8888            0.0.0.0:*               LISTEN      23418/nginx     
+tcp        0      0 127.0.0.1:8001          0.0.0.0:*               LISTEN      6213/python     
+tcp6       0      0 :::2222                 :::*                    LISTEN      626/sshd        
+tcp6       0      0 :::4949                 :::*                    LISTEN      11251/munin-node
+udp        0      0 127.0.0.1:11211         0.0.0.0:*                           3517/memcached  
+udp        0      0 192.168.122.1:53        0.0.0.0:*                           32117/dnsmasq   
+udp        0      0 0.0.0.0:67              0.0.0.0:*                           32117/dnsmasq   
+udp        0      0 0.0.0.0:68              0.0.0.0:*                           437/dhclient3   
